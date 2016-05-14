@@ -1,0 +1,105 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300'");
+
+html, body {
+    height: 100vh;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top: 4px !important;
+    padding-bottom: 0 !important;
+    height: 50px;
+}
+
+.navbar {
+    min-height: 50px !important;
+}
+
+header {
+    /*background-image: url("../img/fondo-white-1024x683.jpg");*/
+    background-size: cover;
+    height: 100vh;
+    margin: 50px -10px 50px -10px;
+    align-items: center;
+    justify-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+header .background {
+    background-image: url("../img/geometric4-min.png");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 60vh;
+}
+
+header .logo {
+    background-image: url("../img/Logo-Sait-02-300x203.png");
+    /*background-size: 80px 60px;*/
+    background-repeat: no-repeat;
+    /*border: solid red;*/
+    border-top: 5px solid rgba(114, 114, 114, 0.30);
+    /*background-size: contain;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center center;*/
+    /*height: 60vh;*/
+
+    background-attachment: fixed;
+    background-position: center 10vh;
+    height: 60vh;
+}
+
+header h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #31719C;
+    width: 50vw;
+    margin: 25vh auto auto auto;
+}
+
+header .intro {
+    /*border: 5px solid green;*/
+    background: white;
+    height: 40vh;
+    padding: 20px 5vw 0 5vw;
+}
+
+header .intro .quote{
+
+    /*border-bottom: 2px solid gray;*/
+    padding: 2vh;
+}
+
+/*http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns */
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.col-fixed {
+    /* custom width */
+    width: 320px;
+}
+
+.col-min {
+    /* custom min width */
+    min-width: 320px;
+}
+
+.col-max {
+    /* custom max width */
+    max-width: 320px;
+}
